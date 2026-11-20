@@ -1,6 +1,6 @@
 cask "exokey" do
-  version "0.2.0"
-  sha256 "a07c1a6808928e1669504029f12159b5ef3c3abe58c62a3ed5e07e81a2d03449"
+  version "0.2.1"
+  sha256 "2b467f267d5e02d633f30b09b39d642b7b413b8aa4857b983a99da7f4c540607"
 
   url "https://github.com/jandiradmin/ExoKey/releases/download/v#{version}/ExoKey-#{version}.zip"
   name "ExoKey"
