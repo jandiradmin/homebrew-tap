@@ -1,6 +1,6 @@
 cask "exocommander" do
-  version "0.10.0"
-  sha256 "05e10e6c8724721948fdfae0a192ba1a35e480a8ed8b7b472ebe5b263f6d1142"
+  version "0.11.0"
+  sha256 "ef804c5c0ceb6ce214fd2abfb12d54f3668c04e6e511209ca686f37b07bded40"
 
   url "https://github.com/jandiradmin/ExoCommander/releases/download/v#{version}/ExoCommander-#{version}.zip"
   name "ExoCommander"
