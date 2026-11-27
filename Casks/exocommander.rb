@@ -1,6 +1,6 @@
 cask "exocommander" do
   version "0.11.1"
-  sha256 "f4408d8237f627c33aaeb2291c2983a0a6f180ac8b7f0673536ae3324dc19e8e"
+  sha256 "9984bffa30f126721da6332b7ce8b1d47eb9e40a2ac4bf488362b0196dd07b83"
 
   url "https://github.com/jandiradmin/ExoCommander/releases/download/v#{version}/ExoCommander-#{version}.zip"
   name "ExoCommander"
@@ -20,9 +20,4 @@ cask "exocommander" do
     "~/Library/Preferences/com.exo.ExoCommander.plist",
     "~/Library/Saved Application State/com.exo.ExoCommander.savedState",
   ]
-
-  caveats <<~EOS
-    ExoCommander is not notarized by Apple yet. On the first launch macOS will refuse to open it:
-    open System Settings → Privacy & Security and click "Open Anyway" next to ExoCommander.
-  EOS
 end
